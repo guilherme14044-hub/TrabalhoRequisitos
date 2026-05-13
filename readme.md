@@ -29,10 +29,7 @@ retencao-grad
 │   ├── respostas-questionario.md
 │   ├── requisitos-funcionais.md
 │   └── requisitos-nao-funcionais.md
-│
-├── dados
-│
-└── imagens
+
 ```
 
 ---
