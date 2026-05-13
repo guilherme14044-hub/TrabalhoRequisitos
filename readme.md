@@ -77,7 +77,7 @@ retencao-grad
 
 # Equipe
 
-- Nome dos integrantes do grupo
+- Felipe, Guilherme, Cauê e Jhonatan
 
 ---
 
