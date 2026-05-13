@@ -40,16 +40,16 @@ retencao-grad
 # Documentação
 
 ## Entrevista com Stakeholder
-- [Abrir documento](docs/entrevista-stakeholder.md)
+- [Abrir documento](docs/entrevistaCoordenador.md)
 
 ## Questionário para Estudantes
-- [Abrir documento](docs/questionario-estudantes.md)
+- [Abrir documento](docs/questionarioEstudantes.md)
 
 ## Respostas e Análise Estatística
-- [Abrir documento](docs/respostas-questionario.md)
+- [Abrir documento](docs/respostas.md)
 
 ## Requisitos Funcionais
-- [Abrir documento](docs/requisitos-funcionais.md)
+- [Abrir documento](docs/requisitos.md)
 
 ## Requisitos Não Funcionais
 - [Abrir documento](docs/requisitos-nao-funcionais.md)
