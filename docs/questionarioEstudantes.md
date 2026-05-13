@@ -1,7 +1,21 @@
+# Questionário – Fatores Relacionados à Evasão Acadêmica
 
-# Respostas do Questionário — Fatores Relacionados à Evasão Acadêmica
+## Objetivo
+Identificar fatores que podem influenciar a desistência do curso e compreender quais tipos de apoio institucional são mais relevantes para os estudantes.
 
-## Perguntas Aplicadas
+---
+
+## Escala utilizada
+
+1 – Discordo totalmente  
+2 – Discordo parcialmente  
+3 – Neutro  
+4 – Concordo parcialmente  
+5 – Concordo totalmente  
+
+---
+
+## Perguntas
 
 1. Dificuldades financeiras influenciam meu desempenho e permanência no curso.
 
@@ -15,29 +29,71 @@
 
 ---
 
-# Respostas Coletadas
+## Respostas coletadas
 
-| Data/Hora | Q1 | Q2 | Q3 | Q4 | Q5 |
-|---|---|---|---|---|---|
-| 11/05/2026 20:20:21 | 2 – Discordo parcialmente | 2 – Discordo parcialmente | 4 – Concordo parcialmente | 5 – Concordo totalmente | 5 – Concordo totalmente |
-| 11/05/2026 20:24:11 | 1 – Discordo totalmente | 3 – Neutro | 1 – Discordo totalmente | 4 – Concordo parcialmente | 5 – Concordo totalmente |
-| 11/05/2026 20:25:02 | 1 – Discordo totalmente | 3 – Neutro | 1 – Discordo totalmente | 4 – Concordo parcialmente | 5 – Concordo totalmente |
-| 11/05/2026 20:26:05 | 4 – Concordo parcialmente | 5 – Concordo totalmente | 3 – Neutro | 3 – Neutro | 4 – Concordo parcialmente |
+### Resposta 1
+- Q1: 2 – Discordo parcialmente  
+- Q2: 2 – Discordo parcialmente  
+- Q3: 4 – Concordo parcialmente  
+- Q4: 5 – Concordo totalmente  
+- Q5: 5 – Concordo totalmente  
 
 ---
 
-# Análise Inicial dos Resultados
+### Resposta 2
+- Q1: 1 – Discordo totalmente  
+- Q2: 3 – Neutro  
+- Q3: 1 – Discordo totalmente  
+- Q4: 4 – Concordo parcialmente  
+- Q5: 5 – Concordo totalmente  
 
-Com base nas respostas coletadas, foi possível identificar alguns fatores relevantes relacionados à evasão acadêmica.
+---
 
-## Principais observações
+### Resposta 3
+- Q1: 1 – Discordo totalmente  
+- Q2: 3 – Neutro  
+- Q3: 1 – Discordo totalmente  
+- Q4: 4 – Concordo parcialmente  
+- Q5: 5 – Concordo totalmente  
 
-- Parte dos estudantes considera que dificuldades financeiras impactam sua permanência no curso.
-- A necessidade de trabalhar em horários de aula aparece como um fator significativo para alguns alunos.
-- Alguns estudantes já demonstraram desmotivação ou dúvidas em relação à permanência no curso.
-- A maioria considera importante um acompanhamento mais próximo da coordenação e dos professores.
-- Houve forte concordância quanto à utilidade de ferramentas acadêmicas inteligentes para prevenção da evasão.
+---
 
-## Conclusão
+### Resposta 4
+- Q1: 4 – Concordo parcialmente  
+- Q2: 5 – Concordo totalmente  
+- Q3: 3 – Neutro  
+- Q4: 3 – Neutro  
+- Q5: 4 – Concordo parcialmente  
 
-Os dados coletados reforçam a necessidade de ferramentas de acompanhamento acadêmico capazes de identificar alunos em risco e auxiliar a coordenação em ações preventivas.
+---
+
+### Resposta 5
+- Q1: 4 – Concordo parcialmente  
+- Q2: 5 – Concordo totalmente  
+- Q3: 1 – Discordo totalmente  
+- Q4: 3 – Neutro  
+- Q5: 5 – Concordo totalmente  
+
+---
+
+### Resposta 6
+- Q1: 1 – Discordo totalmente  
+- Q2: 1 – Discordo totalmente  
+- Q3: 4 – Concordo parcialmente  
+- Q4: 4 – Concordo parcialmente  
+- Q5: 4 – Concordo parcialmente  
+
+---
+
+### Resposta 7
+- Q1: 1 – Discordo totalmente  
+- Q2: 2 – Discordo parcialmente  
+- Q3: 4 – Concordo parcialmente  
+- Q4: 4 – Concordo parcialmente  
+- Q5: 4 – Concordo parcialmente  
+
+---
+
+## Observação
+
+Os dados foram organizados para permitir análise estatística de frequência e tendência de respostas, possibilitando identificar padrões relacionados à evasão acadêmica.
