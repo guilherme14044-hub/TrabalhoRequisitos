@@ -19,7 +19,7 @@ O sistema Retenção-Grad busca auxiliar coordenadores e professores no acompanh
 # Estrutura do Projeto
 
 ```text
-retencao-grad
+TrabalhoRequisitos
 │
 ├── README.md
 │
