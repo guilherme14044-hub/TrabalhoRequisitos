@@ -1,4 +1,3 @@
-
 # Respostas do Questionário — Fatores Relacionados à Evasão Acadêmica
 
 ## Perguntas Aplicadas
@@ -23,12 +22,15 @@
 | 11/05/2026 20:24:11 | 1 – Discordo totalmente | 3 – Neutro | 1 – Discordo totalmente | 4 – Concordo parcialmente | 5 – Concordo totalmente |
 | 11/05/2026 20:25:02 | 1 – Discordo totalmente | 3 – Neutro | 1 – Discordo totalmente | 4 – Concordo parcialmente | 5 – Concordo totalmente |
 | 11/05/2026 20:26:05 | 4 – Concordo parcialmente | 5 – Concordo totalmente | 3 – Neutro | 3 – Neutro | 4 – Concordo parcialmente |
+| 11/05/2026 20:26:35 | 4 – Concordo parcialmente | 5 – Concordo totalmente | 1 – Discordo totalmente | 3 – Neutro | 5 – Concordo totalmente |
+| 12/05/2026 09:40:22 | 1 – Discordo totalmente | 1 – Discordo totalmente | 4 – Concordo parcialmente | 4 – Concordo parcialmente | 4 – Concordo parcialmente |
+| 12/05/2026 18:10:49 | 1 – Discordo totalmente | 2 – Discordo parcialmente | 4 – Concordo parcialmente | 4 – Concordo parcialmente | 4 – Concordo parcialmente |
 
 ---
 
 # Análise Estatística das Respostas
 
-Total de respostas coletadas: **4**
+Total de respostas coletadas: **7**
 
 ---
 
@@ -37,12 +39,12 @@ Total de respostas coletadas: **4**
 
 | Resposta | Quantidade | Porcentagem |
 |---|---|---|
-| 1 – Discordo totalmente | 2 | 50% |
-| 2 – Discordo parcialmente | 1 | 25% |
-| 4 – Concordo parcialmente | 1 | 25% |
+| 1 – Discordo totalmente | 4 | 57,1% |
+| 2 – Discordo parcialmente | 1 | 14,3% |
+| 4 – Concordo parcialmente | 2 | 28,6% |
 
 ### Resultado
-A maioria dos participantes (75%) não considera as dificuldades financeiras como principal fator de permanência no curso.
+A maioria dos participantes não considera as dificuldades financeiras como principal fator relacionado à permanência acadêmica.
 
 ---
 
@@ -51,12 +53,13 @@ A maioria dos participantes (75%) não considera as dificuldades financeiras com
 
 | Resposta | Quantidade | Porcentagem |
 |---|---|---|
-| 2 – Discordo parcialmente | 1 | 25% |
-| 3 – Neutro | 2 | 50% |
-| 5 – Concordo totalmente | 1 | 25% |
+| 1 – Discordo totalmente | 1 | 14,3% |
+| 2 – Discordo parcialmente | 2 | 28,6% |
+| 3 – Neutro | 2 | 28,6% |
+| 5 – Concordo totalmente | 2 | 28,6% |
 
 ### Resultado
-Metade dos estudantes apresentou posição neutra, enquanto 25% afirmaram que a necessidade de trabalhar interfere diretamente na permanência acadêmica.
+As respostas apresentaram distribuição equilibrada, indicando que a necessidade de trabalhar pode impactar significativamente parte dos estudantes.
 
 ---
 
@@ -65,12 +68,12 @@ Metade dos estudantes apresentou posição neutra, enquanto 25% afirmaram que a 
 
 | Resposta | Quantidade | Porcentagem |
 |---|---|---|
-| 1 – Discordo totalmente | 2 | 50% |
-| 3 – Neutro | 1 | 25% |
-| 4 – Concordo parcialmente | 1 | 25% |
+| 1 – Discordo totalmente | 3 | 42,9% |
+| 3 – Neutro | 1 | 14,3% |
+| 4 – Concordo parcialmente | 3 | 42,9% |
 
 ### Resultado
-A maioria dos estudantes afirmou não ter pensado em abandonar o curso, porém parte dos participantes demonstrou sinais de desmotivação.
+Os resultados demonstram equilíbrio entre estudantes motivados e estudantes que já cogitaram abandonar o curso.
 
 ---
 
@@ -79,12 +82,12 @@ A maioria dos estudantes afirmou não ter pensado em abandonar o curso, porém p
 
 | Resposta | Quantidade | Porcentagem |
 |---|---|---|
-| 3 – Neutro | 1 | 25% |
-| 4 – Concordo parcialmente | 2 | 50% |
-| 5 – Concordo totalmente | 1 | 25% |
+| 3 – Neutro | 2 | 28,6% |
+| 4 – Concordo parcialmente | 4 | 57,1% |
+| 5 – Concordo totalmente | 1 | 14,3% |
 
 ### Resultado
-75% dos estudantes acreditam que um acompanhamento mais próximo pode auxiliar na permanência acadêmica.
+A maioria dos estudantes acredita que um acompanhamento institucional mais próximo pode auxiliar na permanência acadêmica.
 
 ---
 
@@ -93,16 +96,16 @@ A maioria dos estudantes afirmou não ter pensado em abandonar o curso, porém p
 
 | Resposta | Quantidade | Porcentagem |
 |---|---|---|
-| 4 – Concordo parcialmente | 1 | 25% |
-| 5 – Concordo totalmente | 3 | 75% |
+| 4 – Concordo parcialmente | 3 | 42,9% |
+| 5 – Concordo totalmente | 4 | 57,1% |
 
 ### Resultado
-Todos os participantes consideraram positivas as ferramentas de apoio acadêmico, sendo que 75% concordaram totalmente com sua importância.
+Todos os participantes demonstraram opinião positiva sobre o uso de ferramentas acadêmicas inteligentes para prevenção da evasão.
 
 ---
 
 # Conclusão Geral
 
-Os resultados indicam que mecanismos de acompanhamento acadêmico, comunicação institucional e ferramentas inteligentes de monitoramento podem contribuir significativamente para a redução da evasão estudantil.
+Os resultados obtidos demonstram que fatores relacionados à motivação acadêmica, necessidade de acompanhamento institucional e uso de ferramentas de apoio possuem forte relação com a permanência dos estudantes no curso.
 
-Além disso, fatores como necessidade de trabalhar, motivação acadêmica e apoio institucional mostraram-se relevantes para compreensão do cenário de permanência dos estudantes.
+Além disso, os dados reforçam a importância de sistemas inteligentes capazes de monitorar desempenho, frequência e comportamento acadêmico para auxiliar na redução da evasão estudantil.
