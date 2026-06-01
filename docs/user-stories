@@ -1,1 +1,140 @@
+# User Stories
+
+## US01 - Alerta Automático de Risco de Evasão
+
+### Requisito de Origem
+
+RF01 - Alerta Automático de Risco de Evasão
+
+### Card
+
+Como Coordenador de Curso,
+
+eu quero receber alertas automáticos sobre alunos com risco de evasão,
+
+para que eu possa agir preventivamente antes que o aluno abandone o curso.
+
+### Conversation
+
+* O risco será identificado considerando frequência inferior a 75%.
+* Também serão considerados alunos com média inferior a 6,0.
+* Alunos com matrícula cancelada ou trancada não devem gerar alertas.
+
+### Confirmation
+
+* O sistema deve gerar alerta quando a frequência do aluno ficar abaixo de 75%.
+* O sistema deve gerar alerta quando a média do aluno ficar abaixo de 6,0.
+* O alerta deve ser exibido no painel do coordenador.
+
+---
+
+## US02 - Predição Inteligente de Evasão
+
+### Requisito de Origem
+
+RF06 - Predição Inteligente de Evasão
+
+### Card
+
+Como Coordenador de Curso,
+
+eu quero visualizar uma previsão dos alunos com maior probabilidade de evasão,
+
+para que eu possa tomar ações preventivas com antecedência.
+
+### Conversation
+
+* A predição utilizará frequência e desempenho acadêmico.
+* O cálculo deverá ser atualizado periodicamente.
+* O risco deve ser apresentado em percentual.
+
+### Confirmation
+
+* O sistema deve calcular uma probabilidade de evasão para cada aluno.
+* O percentual de risco deve ser apresentado no dashboard.
+* O cálculo deve ser atualizado automaticamente.
+
+---
+
+## US03 - Envio Automático de Notificações
+
+### Requisito de Origem
+
+RF08 - Envio Automático de Notificações
+
+### Card
+
+Como Coordenador de Curso,
+
+eu quero que o sistema envie notificações automáticas aos alunos em risco,
+
+para que eles sejam informados e incentivados a buscar apoio acadêmico.
+
+### Conversation
+
+* As notificações serão enviadas por e-mail.
+* Somente alunos classificados como "Em Risco" receberão notificações.
+* O envio deverá ocorrer automaticamente.
+
+### Confirmation
+
+* O sistema deve enviar e-mail automaticamente ao aluno em risco.
+* O e-mail deve informar o motivo do alerta.
+* O sistema deve registrar data e horário do envio.
+
+---
+
+## US04 - Acompanhamento Pedagógico Personalizado
+
+### Requisito de Origem
+
+RF10 - Acompanhamento Pedagógico Personalizado
+
+### Card
+
+Como Coordenador de Curso,
+
+eu quero receber sugestões de ações pedagógicas para alunos em risco,
+
+para que eu possa oferecer suporte adequado às suas necessidades.
+
+### Conversation
+
+* O sistema poderá sugerir monitorias.
+* O sistema poderá sugerir orientação pedagógica.
+* As recomendações deverão considerar o histórico acadêmico do estudante.
+
+### Confirmation
+
+* O sistema deve sugerir pelo menos uma ação de apoio.
+* As sugestões devem ser exibidas junto ao perfil do aluno.
+* As recomendações devem considerar o histórico acadêmico registrado.
+
+---
+
+## US05 - Dashboard Acadêmico Interativo
+
+### Requisito de Origem
+
+RF02 - Dashboard Acadêmico Interativo
+
+### Card
+
+Como Coordenador de Curso,
+
+eu quero visualizar indicadores acadêmicos em um dashboard interativo,
+
+para que eu possa acompanhar rapidamente a situação das turmas.
+
+### Conversation
+
+* O dashboard deve apresentar frequência.
+* O dashboard deve apresentar desempenho acadêmico.
+* Os dados devem ser atualizados automaticamente.
+
+### Confirmation
+
+* O dashboard deve apresentar gráficos de frequência.
+* O dashboard deve apresentar gráficos de desempenho.
+* Os dados exibidos devem ser atualizados automaticamente.
 
