@@ -40,21 +40,21 @@ TrabalhoRequisitos
 
 # Documentação da Fase 1
 
-## Entrevista com Stakeholder
+## Entrevista com o Coordenador
 
-* [Abrir documento](docs/entrevista-stakeholder.md)
+* [Abrir documento](docs/entrevistaCoordenador.md)
 
 ## Questionário para Estudantes
 
-* [Abrir documento](docs/questionario-estudantes.md)
+* [Abrir documento](docs/questionarioEstudantes.md)
 
 ## Respostas do Questionário
 
-* [Abrir documento](docs/respostas-questionario.md)
+* [Abrir documento](docs/respostas.md)
 
 ## Requisitos Funcionais
 
-* [Abrir documento](docs/requisitos-funcionais.md)
+* [Abrir documento](docs/requisitos.md)
 
 ## Requisitos Não Funcionais
 
