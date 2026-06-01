@@ -1,18 +1,19 @@
 # Retenção-Grad
 
-Projeto acadêmico desenvolvido com o objetivo de auxiliar na redução da evasão estudantil por meio do monitoramento acadêmico e identificação de alunos em situação de risco.
+Projeto acadêmico desenvolvido na disciplina de Processos de Software e Engenharia de Requisitos com o objetivo de auxiliar instituições de ensino na prevenção da evasão estudantil por meio do monitoramento acadêmico, análise de desempenho e identificação precoce de alunos em situação de risco.
 
 ---
 
 # Objetivo
 
-O sistema Retenção-Grad busca auxiliar coordenadores e professores no acompanhamento de:
+O sistema Retenção-Grad tem como finalidade apoiar coordenadores, professores e equipes pedagógicas no acompanhamento da trajetória acadêmica dos estudantes, permitindo:
 
-- frequência;
-- desempenho acadêmico;
-- identificação de alunos em risco;
-- geração de alertas preventivos;
-- acompanhamento institucional.
+* Monitoramento da frequência acadêmica;
+* Acompanhamento do desempenho escolar;
+* Identificação de alunos em situação de risco;
+* Geração automática de alertas preventivos;
+* Apoio à tomada de decisão institucional;
+* Redução dos índices de evasão acadêmica.
 
 ---
 
@@ -28,56 +29,101 @@ TrabalhoRequisitos
 │   ├── questionario-estudantes.md
 │   ├── respostas-questionario.md
 │   ├── requisitos-funcionais.md
-│   └── requisitos-nao-funcionais.md
-
+│   ├── requisitos-nao-funcionais.md
+│   ├── product-backlog.md
+│   ├── user-stories.md
+│   ├── bdd-cenarios.md
+│   └── invest.md
 ```
 
 ---
 
-# Documentação
+# Documentação da Fase 1
 
 ## Entrevista com Stakeholder
-- [Abrir documento](docs/entrevistaCoordenador.md)
+
+* [Abrir documento](docs/entrevista-stakeholder.md)
 
 ## Questionário para Estudantes
-- [Abrir documento](docs/questionarioEstudantes.md)
 
-## Respostas e Análise Estatística
-- [Abrir documento](docs/respostas.md)
+* [Abrir documento](docs/questionario-estudantes.md)
+
+## Respostas do Questionário
+
+* [Abrir documento](docs/respostas-questionario.md)
 
 ## Requisitos Funcionais
-- [Abrir documento](docs/requisitos.md)
+
+* [Abrir documento](docs/requisitos-funcionais.md)
 
 ## Requisitos Não Funcionais
-- [Abrir documento](docs/requisitos-nao-funcionais.md)
+
+* [Abrir documento](docs/requisitos-nao-funcionais.md)
+
+---
+
+# Documentação da Fase 2
+
+## Product Backlog
+
+* [Abrir documento](docs/product-backlog.md)
+
+## User Stories
+
+* [Abrir documento](docs/user-stories.md)
+
+## Cenários BDD
+
+* [Abrir documento](docs/bdd-cenarios.md)
+
+## Avaliação INVEST
+
+* [Abrir documento](docs/invest.md)
 
 ---
 
 # Funcionalidades Esperadas
 
-- Importação de dados acadêmicos;
-- Monitoramento de frequência;
-- Identificação automática de alunos em risco;
-- Geração de alertas inteligentes;
-- Dashboards e relatórios analíticos;
-- Contato institucional com estudantes.
+* Identificação automática de alunos em risco de evasão;
+* Dashboard acadêmico interativo;
+* Linha do tempo acadêmica do estudante;
+* Importação de dados acadêmicos por PDF;
+* Relatórios automáticos mensais;
+* Predição inteligente de evasão;
+* Controle de frequência acadêmica;
+* Envio automático de notificações;
+* Visualização integrada das disciplinas;
+* Sugestões de acompanhamento pedagógico personalizado.
 
 ---
 
 # Tecnologias Utilizadas
 
-- Markdown
-- GitHub
-- Git
+* Markdown
+* Git
+* GitHub
 
 ---
 
 # Equipe
 
-- Felipe, Guilherme, Cauê e Jhonatan
+* Felipe
+* Guilherme
+* Cauê
+* Jhonatan
 
 ---
 
 # Disciplina
 
-Projeto desenvolvido para a disciplina de Engenharia de Software / Análise de Requisitos.
+Processos de Software e Engenharia de Requisitos
+
+Instituto Federal Farroupilha (IFFar)
+
+---
+
+# Status do Projeto
+
+Projeto acadêmico em desenvolvimento.
+
+Atualmente encontra-se na etapa de transformação dos requisitos funcionais em Product Backlog, User Stories e Cenários BDD.
