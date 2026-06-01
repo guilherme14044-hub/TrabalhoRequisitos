@@ -1,141 +1,211 @@
-# User Stories
+# User Stories e Cenários BDD
 
-## US01 - Alerta Automático de Risco de Evasão
+## RF01 – Alerta Automático de Risco de Evasão
 
-### Requisito de Origem
+### User Story #01: Identificação Automática de Alunos em Risco
 
-RF01 - Alerta Automático de Risco de Evasão
-
-### Card
+#### CARD
 
 Como Coordenador de Curso,
 
-eu quero receber alertas automáticos sobre alunos com risco de evasão,
+eu quero visualizar alertas automáticos de alunos com risco de evasão,
 
-para que eu possa agir preventivamente antes que o aluno abandone o curso.
+para que eu possa realizar intervenções antes que o estudante abandone o curso.
 
-### Conversation
+#### CONVERSATION (Notas de Regra de Negócio)
 
-* O risco será identificado considerando frequência inferior a 75%.
-* Também serão considerados alunos com média inferior a 6,0.
-* Alunos com matrícula cancelada ou trancada não devem gerar alertas.
+* O risco deve ser identificado quando a frequência for inferior a 75%.
+* O risco deve ser identificado quando a média geral for inferior a 6,0.
+* Alunos com matrícula trancada ou cancelada não devem gerar alertas.
 
-### Confirmation
+#### CONFIRMATION (Critérios de Aceite)
 
-* O sistema deve gerar alerta quando a frequência do aluno ficar abaixo de 75%.
-* O sistema deve gerar alerta quando a média do aluno ficar abaixo de 6,0.
-* O alerta deve ser exibido no painel do coordenador.
+* [ ] O sistema deve exibir um alerta visual para alunos classificados como "Em Risco".
+* [ ] O painel deve permitir filtrar alertas por curso e semestre.
+* [ ] O alerta deve desaparecer automaticamente quando o aluno deixar de atender aos critérios de risco.
+
+### Cenário 01: Identificação de Aluno em Risco (Caminho Feliz)
+
+```gherkin
+Cenário: Aluno apresenta baixo desempenho acadêmico
+
+Dado que o aluno "João" está matriculado no curso de Sistemas de Informação
+E possui frequência de 72%
+E possui média geral de 5,8
+
+Quando o sistema executar a análise de risco acadêmico
+
+Então o aluno deve ser classificado como "Em Risco"
+E um alerta deve ser exibido no painel do coordenador
+```
+
+### Cenário 02: Matrícula Trancada (Fluxo de Exceção)
+
+```gherkin
+Cenário: Aluno com matrícula trancada
+
+Dado que o aluno "Pedro" possui matrícula com status "Trancada"
+
+Quando o sistema executar a análise de risco acadêmico
+
+Então nenhum alerta deve ser gerado
+E o aluno não deve aparecer na lista de estudantes em risco
+```
 
 ---
 
-## US02 - Predição Inteligente de Evasão
+## RF06 – Predição Inteligente de Evasão
 
-### Requisito de Origem
+### User Story #02: Predição de Possível Evasão
 
-RF06 - Predição Inteligente de Evasão
-
-### Card
+#### CARD
 
 Como Coordenador de Curso,
 
-eu quero visualizar uma previsão dos alunos com maior probabilidade de evasão,
+eu quero visualizar uma estimativa da probabilidade de evasão dos estudantes,
 
-para que eu possa tomar ações preventivas com antecedência.
+para que eu possa agir preventivamente antes que ocorram desligamentos acadêmicos.
 
-### Conversation
+#### CONVERSATION (Notas de Regra de Negócio)
 
-* A predição utilizará frequência e desempenho acadêmico.
-* O cálculo deverá ser atualizado periodicamente.
-* O risco deve ser apresentado em percentual.
-
-### Confirmation
-
-* O sistema deve calcular uma probabilidade de evasão para cada aluno.
-* O percentual de risco deve ser apresentado no dashboard.
+* A predição deve considerar frequência, desempenho acadêmico e histórico do aluno.
 * O cálculo deve ser atualizado automaticamente.
+* O resultado deve ser apresentado em percentual.
+
+#### CONFIRMATION (Critérios de Aceite)
+
+* [ ] O sistema deve calcular um percentual de risco para cada estudante.
+* [ ] O percentual deve ser exibido no dashboard.
+* [ ] O cálculo deve ser atualizado automaticamente ao receber novos dados.
 
 ---
 
-## US03 - Envio Automático de Notificações
+## RF08 – Envio Automático de Notificações
 
-### Requisito de Origem
+### User Story #03: Comunicação Automática com Estudantes em Risco
 
-RF08 - Envio Automático de Notificações
-
-### Card
+#### CARD
 
 Como Coordenador de Curso,
 
-eu quero que o sistema envie notificações automáticas aos alunos em risco,
+eu quero que o sistema envie notificações automáticas aos estudantes em risco,
 
-para que eles sejam informados e incentivados a buscar apoio acadêmico.
+para que eles sejam informados sobre sua situação acadêmica e possam buscar auxílio.
 
-### Conversation
+#### CONVERSATION (Notas de Regra de Negócio)
 
-* As notificações serão enviadas por e-mail.
-* Somente alunos classificados como "Em Risco" receberão notificações.
-* O envio deverá ocorrer automaticamente.
+* Apenas estudantes classificados como "Em Risco" devem receber notificações.
+* O envio deve ocorrer por e-mail institucional.
+* O sistema deve registrar todos os envios realizados.
 
-### Confirmation
+#### CONFIRMATION (Critérios de Aceite)
 
-* O sistema deve enviar e-mail automaticamente ao aluno em risco.
-* O e-mail deve informar o motivo do alerta.
-* O sistema deve registrar data e horário do envio.
+* [ ] O sistema deve enviar automaticamente um e-mail ao estudante em risco.
+* [ ] O motivo do alerta deve estar presente na mensagem.
+* [ ] A data e hora do envio devem ser registradas no sistema.
+
+### Cenário 01: Envio de Notificação (Caminho Feliz)
+
+```gherkin
+Cenário: Estudante recebe notificação de risco acadêmico
+
+Dado que a estudante "Maria" foi classificada como "Em Risco"
+E possui e-mail institucional cadastrado
+
+Quando o sistema executar o processo de notificações
+
+Então um e-mail deve ser enviado para "Maria"
+E o envio deve ser registrado no histórico do sistema
+```
+
+### Cenário 02: E-mail Inválido (Fluxo de Exceção)
+
+```gherkin
+Cenário: Falha no envio de notificação
+
+Dado que a estudante "Maria" foi classificada como "Em Risco"
+E possui um endereço de e-mail inválido
+
+Quando o sistema tentar enviar a notificação
+
+Então o envio não deve ser realizado
+E uma mensagem de erro deve ser registrada no log do sistema
+```
 
 ---
 
-## US04 - Acompanhamento Pedagógico Personalizado
+## RF10 – Acompanhamento Pedagógico Personalizado
 
-### Requisito de Origem
+### User Story #04: Sugestão de Ações de Apoio Acadêmico
 
-RF10 - Acompanhamento Pedagógico Personalizado
-
-### Card
+#### CARD
 
 Como Coordenador de Curso,
 
-eu quero receber sugestões de ações pedagógicas para alunos em risco,
+eu quero receber sugestões de acompanhamento pedagógico para estudantes em risco,
 
-para que eu possa oferecer suporte adequado às suas necessidades.
+para que eu possa oferecer apoio adequado às necessidades de cada aluno.
 
-### Conversation
+#### CONVERSATION (Notas de Regra de Negócio)
 
 * O sistema poderá sugerir monitorias.
 * O sistema poderá sugerir orientação pedagógica.
-* As recomendações deverão considerar o histórico acadêmico do estudante.
+* As recomendações devem considerar o histórico acadêmico do estudante.
 
-### Confirmation
+#### CONFIRMATION (Critérios de Aceite)
 
-* O sistema deve sugerir pelo menos uma ação de apoio.
-* As sugestões devem ser exibidas junto ao perfil do aluno.
-* As recomendações devem considerar o histórico acadêmico registrado.
+* [ ] O sistema deve sugerir pelo menos uma ação de apoio acadêmico.
+* [ ] As sugestões devem ser exibidas no perfil do estudante.
+* [ ] As recomendações devem considerar o histórico acadêmico disponível.
 
 ---
 
-## US05 - Dashboard Acadêmico Interativo
+## RF02 – Dashboard Acadêmico Interativo
 
-### Requisito de Origem
+### User Story #05: Monitoramento Acadêmico por Dashboard
 
-RF02 - Dashboard Acadêmico Interativo
-
-### Card
+#### CARD
 
 Como Coordenador de Curso,
 
 eu quero visualizar indicadores acadêmicos em um dashboard interativo,
 
-para que eu possa acompanhar rapidamente a situação das turmas.
+para que eu possa acompanhar rapidamente a situação das turmas e dos estudantes.
 
-### Conversation
+#### CONVERSATION (Notas de Regra de Negócio)
 
-* O dashboard deve apresentar frequência.
-* O dashboard deve apresentar desempenho acadêmico.
-* Os dados devem ser atualizados automaticamente.
+* O dashboard deve apresentar indicadores de frequência.
+* O dashboard deve apresentar indicadores de desempenho acadêmico.
+* As informações devem ser atualizadas automaticamente.
 
-### Confirmation
+#### CONFIRMATION (Critérios de Aceite)
 
-* O dashboard deve apresentar gráficos de frequência.
-* O dashboard deve apresentar gráficos de desempenho.
-* Os dados exibidos devem ser atualizados automaticamente.
+* [ ] O dashboard deve exibir gráficos de frequência acadêmica.
+* [ ] O dashboard deve exibir gráficos de desempenho acadêmico.
+* [ ] Os dados apresentados devem refletir as informações mais recentes do sistema.
 
+### Cenário 01: Visualização de Indicadores (Caminho Feliz)
 
+```gherkin
+Cenário: Coordenador acessa dashboard acadêmico
+
+Dado que existem dados acadêmicos cadastrados no sistema
+
+Quando o coordenador acessar o dashboard
+
+Então os gráficos de frequência devem ser exibidos
+E os gráficos de desempenho acadêmico devem ser exibidos
+```
+
+### Cenário 02: Ausência de Dados (Fluxo de Exceção)
+
+```gherkin
+Cenário: Dashboard sem informações disponíveis
+
+Dado que não existem dados acadêmicos cadastrados
+
+Quando o coordenador acessar o dashboard
+
+Então o sistema deve exibir a mensagem "Nenhum dado disponível"
+E nenhum gráfico deve ser apresentado
+```
