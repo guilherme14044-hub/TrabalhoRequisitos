@@ -68,13 +68,9 @@ TrabalhoRequisitos
 
 * [Abrir documento](docs/product-backlog.md)
 
-## User Stories
+## User Stories e Cenários BDD
 
-* [Abrir documento](docs/user-stories.md)
-
-## Cenários BDD
-
-* [Abrir documento](docs/bdd-cenarios.md)
+* [Abrir documento](docs/user-stories-bdd.md)
 
 ## Avaliação INVEST
 
