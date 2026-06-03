@@ -78,6 +78,34 @@ para que eu possa agir preventivamente antes que ocorram desligamentos acadêmic
 * [ ] O percentual deve ser exibido no dashboard.
 * [ ] O cálculo deve ser atualizado automaticamente ao receber novos dados.
 
+### Cenário 01: Exibição da Probabilidade de Evasão (Caminho Feliz)
+
+```gherkin
+Cenário: Sistema calcula a probabilidade de evasão
+
+Dado que o aluno "Carlos" possui frequência de 70%
+E possui média geral de 5,5
+E possui histórico de reprovações registrado
+
+Quando o sistema executar a análise preditiva
+
+Então o sistema deve calcular uma probabilidade de evasão
+E o percentual deve ser exibido no dashboard
+```
+
+### Cenário 02: Dados Insuficientes (Fluxo de Exceção)
+
+```gherkin
+Cenário: Ausência de informações suficientes para análise
+
+Dado que o aluno "Lucas" não possui histórico acadêmico suficiente
+
+Quando o sistema executar a análise preditiva
+
+Então nenhuma probabilidade de evasão deve ser calculada
+E uma mensagem informando dados insuficientes deve ser exibida
+```
+
 ---
 
 ## RF08 – Envio Automático de Notificações
@@ -157,6 +185,33 @@ para que eu possa oferecer apoio adequado às necessidades de cada aluno.
 * [ ] O sistema deve sugerir pelo menos uma ação de apoio acadêmico.
 * [ ] As sugestões devem ser exibidas no perfil do estudante.
 * [ ] As recomendações devem considerar o histórico acadêmico disponível.
+
+### Cenário 01: Sugestão de Monitoria (Caminho Feliz)
+
+```gherkin
+Cenário: Sistema sugere monitoria para estudante em risco
+
+Dado que o aluno "Mateus" foi classificado como "Em Risco"
+E possui baixo desempenho em disciplinas de programação
+
+Quando o coordenador acessar o perfil do estudante
+
+Então o sistema deve sugerir participação em monitorias
+E a recomendação deve ser exibida no perfil do aluno
+```
+
+### Cenário 02: Histórico Não Disponível (Fluxo de Exceção)
+
+```gherkin
+Cenário: Ausência de histórico acadêmico
+
+Dado que o aluno "Gabriel" não possui histórico acadêmico registrado
+
+Quando o coordenador acessar seu perfil
+
+Então o sistema não deve gerar recomendações personalizadas
+E deve informar que não há dados suficientes para análise
+```
 
 ---
 
